@@ -75,4 +75,4 @@ app.get('/pending', function(req, res){
     })
 })
 
-app.listen(3030);
+app.listen(process.env.UI_PORT);
